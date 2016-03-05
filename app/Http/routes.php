@@ -11,6 +11,8 @@
 |
 */
 
+Route::get('sitemap.xml', 'SitemapController@generate');
+
 Route::get('/', function () {
     return view('welcome');
 });
